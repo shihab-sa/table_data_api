@@ -41,22 +41,22 @@ The API response will return data in the following format:
 }
 ```
 
-Explanation of Response Fields
-data: Contains an array of user records that match the search query.
-id: The unique identifier for the user.
-name: The full name of the user.
-email: The email address of the user.
-email_verified_at: The timestamp when the email was verified.
-created_at: The timestamp when the user was created.
-updated_at: The timestamp when the user was last updated.
-current_page: The current page of the result.
-per_page: The number of results per page.
-total: The total number of results available.
-last_page: The last page number of results.
-next_page_url: URL to the next page of results (if any).
-prev_page_url: URL to the previous page of results (if any).
+#Explanation of Response Fields
+#data: Contains an array of user records that match the search query.
+-id: The unique identifier for the user.
+-name: The full name of the user.
+-email: The email address of the user.
+-email_verified_at: The timestamp when the email was verified.
+-created_at: The timestamp when the user was created.
+-updated_at: The timestamp when the user was last updated.
+-current_page: The current page of the result.
+-per_page: The number of results per page.
+-total: The total number of results available.
+-last_page: The last page number of results.
+-next_page_url: URL to the next page of results (if any).
+-prev_page_url: URL to the previous page of results (if any).
 
-How to Use
+##How to Use
 Make a GET request to the API URL, passing paginate and search as query parameters.
 Review the response data to retrieve the list of users based on the search term and pagination.
 
